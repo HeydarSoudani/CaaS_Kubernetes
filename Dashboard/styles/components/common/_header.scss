@@ -1,0 +1,33 @@
+@import '../../vars';
+
+.header {
+    text-align: start;
+    height: 80px;
+    background-color: $white;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.06);
+    position: absolute;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.headerContainer {
+    height: 80px;
+}
+
+.headerRow {
+    height: 80px;
+}
+
+.headerChangeLangCol {
+    text-align: end;
+}
+
+.headerSidebarBtn {
+    background-color: #ffffff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.headerUserProfileCol {
+    text-align: end;
+}

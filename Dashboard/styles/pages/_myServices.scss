@@ -1,0 +1,69 @@
+@import '../vars';
+
+.myServicesContainer {
+    height: 100%;
+    padding: 110px 4% 50px 4% !important;
+}
+
+.serviceItemRow {
+    border-radius: 10px !important;
+    background-color: #FFFFFF;	
+    box-shadow: 0 0 10px 0 rgba(99,100,216,0.23);
+}
+
+.myServicesServiceItemCol {
+    color: $boldGray;
+    font-family: $MainFontNormal;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.serviceItemImgCol {
+    padding: 15px 4% !important;
+}
+
+.serviceItemImg {
+    padding: 4% !important;
+    box-sizing: border-box;	
+    opacity: 0.5;	
+    border: 1px solid $boldGreen;
+    width: 100% !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.04); 
+}
+
+.serviceItemContentCol {
+    padding: 0 !important;
+}
+
+.serviceItemContentNameCol {
+    text-align: start;
+    line-height: 90px;
+}
+
+.serviceItemEditBtn {
+    padding: 0;
+    width: 100%;
+    border: none !important;
+    border-radius: 22.5px;
+    background-color: $paleGreen;
+    color: #FFFFFF;
+    font-family: $MainFontNormal;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.serviceItemDeleteBtn {
+    padding: 0;
+    width: 100%;
+    border: none !important;
+    border-radius: 22.5px;
+    background-color: $error;
+    color: #FFFFFF;
+    font-family: $MainFontNormal;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 35px;
+}

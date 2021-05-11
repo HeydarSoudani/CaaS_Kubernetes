@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/home.js.728cac1585846fe2c364.hot-update.js","sources":["webpack:///./config/config.js"],"sourcesContent":["export const API_BASE_URL = 'http://127.0.0.1:8001';\nexport const namespace = 'default';"],"mappings":";;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AACA;;;;A","sourceRoot":""}

@@ -1,0 +1,32 @@
+@import '../../vars';
+
+.changeLangBtn {
+    border: 1px solid $tooPaleGray;
+    border-radius: 5px;
+    background-color: $white;
+    padding: 4px 2% !important;
+    height: 45px;
+}
+
+.selectedLangNameCol {
+    color: $paleGray;
+    font-family: $MainFontNormal;
+    font-size: 14px;
+}
+
+.langPopover {
+    max-width: 200px !important;
+}
+
+.changeLangPopoverCol {
+    padding: 10px 8% !important;
+}
+
+.changeLangPopoverInnerRow {
+    background-color: #FAFAFA;
+}
+
+.changeLangPopoverInnerRow:hover {
+    cursor: pointer;
+}
+

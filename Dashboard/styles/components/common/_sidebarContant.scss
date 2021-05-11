@@ -1,0 +1,80 @@
+@import '../../vars';
+
+.sidebarContantContainer {
+    padding: 80px 0 0 0;
+    height: 50vh;
+}
+
+// .sidebarContantRow {
+//     height: 100%;
+// }
+
+.sidebarContantItemCol {
+    padding: 12px 3% !important;
+    // height: 60px;
+}
+
+.sidebarContantItemPhotoCol {
+    text-align: start;
+}
+
+.sidebarContantItemTextCol {
+    text-align: start;
+    color: $paleGray;
+    font-family: $MainFontNormal;
+    font-size: 17px;
+}
+
+.sidebarContantItemMoreCol {
+    padding: 0 !important;
+    text-align: end;
+}
+
+.sidebarContantItemUserCol {
+    padding: 16px 3% !important;
+    border-top: 2px solid $boldGreen;
+    background-color: $tooPaleGreen;
+}
+
+.sidebarContantItemUserTextCol {
+    text-align: start;
+    color: $boldGreen;
+    font-family: $MainFontNormal;
+    font-size: 11px;
+}
+
+.sidebarContantHeadRow {
+    padding: 0 0 30px 0;
+}
+
+// -- Mobile version --------------
+.sidebarContantMobileVerHeadCol {
+    padding: 0 10% !important;
+    text-align: start;
+}
+
+.sidebarContantMobileVerContentRow {
+    padding: 30px 15% 0 15%;
+}
+
+.sidebarContantMobileVerContentCol {
+    border: 1px solid #DEF8FF;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.05);
+    text-align: center;
+    padding: 14px 5% !important;
+}
+
+.sidebarContantMobileVerContentPhotoCol {
+    text-align: center;
+    padding: 0 0 12px 0 !important;
+}
+
+.sidebarContantMobileVerContentTextCol {
+    text-align: center;
+    color: $paleGray;
+    font-family: $MainFontNormal;
+    font-size: 17px;
+    padding: 0 !important;
+}

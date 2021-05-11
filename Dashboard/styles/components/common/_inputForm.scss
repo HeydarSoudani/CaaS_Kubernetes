@@ -1,0 +1,25 @@
+@import '../../vars';
+
+.inputFormRow {
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.06);
+    padding: 4px;
+}
+
+.inputFormInputCol {
+    height: 40px;
+}
+
+.inputFormInput {
+    border: none !important;
+    height: inherit !important;
+    text-align: start !important;
+    color: $paleGray;
+    font-family: $MainFontNormal;
+    font-size: 14px !important;
+}
+
+.inputFormImgCol {
+    text-align: center;
+}

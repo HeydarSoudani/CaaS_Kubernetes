@@ -1,0 +1,232 @@
+@import '../vars';
+
+.homeContainer {
+    height: 100%;
+    padding: 110px 4% 50px 4% !important;
+}
+
+.homePartRow {
+    // height: inherit;
+    padding: 0 0 40px 0;
+}
+
+@media only screen and (min-width: 992px) {
+    .servicesContantRow {
+        height: 90%;
+        padding: 0 !important;
+        background-color: $white;
+        box-shadow: 0 4px 15px 0 rgba(0,0,0,0.05);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .servicesContantRow {
+        padding: 0 !important;
+        background-color: $white;
+    }
+}
+
+.servicesContantCol {
+    padding: 40px !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .servicesContantCol {
+        padding: 0px !important;
+    }
+}
+
+
+.servicesLogsRow {
+    width: 100% !important;
+    margin: 20px 0 0 0 !important;
+    margin: 30px;
+    height: 40%;
+    padding: 0 !important;
+    background-color: $white;
+    box-shadow: 0 4px 15px 0 rgba(0,0,0,0.05);
+}
+
+@media only screen and (max-width: 992px) {
+    .servicesLogsRow {
+        margin: 30px;
+        padding: 0 !important;
+        background-color: $white;
+    }
+}
+
+.servicesLogsCol {
+    padding: 40px !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .servicesLogsCol {
+        padding: 0px !important;
+    }
+}
+
+.uploadPrivateContainerTitleCol {
+    text-align: start;
+    color: $boldGray;
+    font-family: $MainFontNormal;
+    font-size: 16px;
+    border-bottom: 1px solid $boldGreen;
+    padding: 0 0 10px 0 !important;
+    margin: 0 0 20px 0;
+}
+
+.uploadPrivateContainerCol {
+    border-radius: 10px;
+    background-color: rgba(0, 159, 157, 0.15);
+    padding: 10px 3% !important;
+}
+
+.uploadPrivateContainerInnerTitleCol {
+    text-align: start;
+    color: $boldGray;
+    font-family: $MainFontNormal;
+    font-size: 14px;
+    padding: 0 0 10px 0 !important;
+}
+
+.uploadPrivateContainerInputCol {
+    padding: 0 0 12px 0 !important;
+}
+
+.homeSrviceRow {
+    border-radius: 10px;
+    background-color: rgba(0, 159, 157, 0.15);
+    padding: 5px 1% !important;  
+    margin: 0 0 10px 0 !important;
+}
+
+.homeSelectServiceCheckboxCol {
+    text-align: center;
+    padding: 0 !important;
+    line-height: 48px;
+}
+
+.homeSelectServiceCheckbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    transition: all 0.15s ease-out 0s;
+    border: 1px solid $boldGreen;	
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin: 4px 0 0 0;
+    outline: none;
+    position: relative;
+    z-index: 3;
+    line-height: 25px !important;
+}
+.homeSelectServiceCheckbox:hover {
+    background: #ffffff;
+}
+.homeSelectServiceCheckbox:checked {
+    background: #ffffff;
+    color: $boldGreen;
+}
+.homeSelectServiceCheckbox:checked::before {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    content: '✔';
+    font-family: 'FontAwesome';
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    line-height: 20px;
+}
+.homeSelectServiceCheckbox:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #ffffff;
+    content: '';
+    display: block;
+    position: relative;
+    // z-index: 2;
+}
+.homeSelectServiceCheckbox {
+    border-radius: 10%;
+}
+.homeSelectServiceCheckbox {
+    border-radius: 10%;
+}
+
+.homeSelectServiceTitleCol {
+    text-align: start;
+    padding: 0 !important;
+    vertical-align: middle !important;
+    color: $boldGray;
+    font-family: $MainFontNormal;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+.homeOnSubmitRow {
+    padding: 30px 0 0 0;
+}
+
+.homeOnSubmitBtn {
+    width: 100%;
+    background-color: $paleGreen;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.06);
+    color: #FFFFFF;
+    font-family: $MainFontNormal;
+    font-size: 17px;
+    font-weight: 500;
+    border: $paleGreen !important;
+    padding: 12px 0;
+}
+
+.homeLogsTitleRow {
+    padding: 10px 0 0 0;
+}
+
+// ----------------
+.servicesContantBodyTabItemRow {
+    width: 100% !important;
+    border-radius: 5px;
+    background-color: $white;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+    padding: 20px 3%;
+}
+
+.servicesContantBodyTabItemRow:hover {
+    cursor: pointer;
+}
+
+.servicesContantBodyTabItemImgCol {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.servicesContantBodyTabItemTextCol {
+    padding: 0 !important;
+    text-align: center;
+    color: $boldGreen;
+    font-family: $MainFontNormal;
+    font-size: 15px;
+    vertical-align: 50% !important;
+    line-height: 50px;
+}
+
+.servicesContantBodyShowDataCol {
+    background-color: $tooPaleGreen;
+    padding: 0 !important;
+}
+
